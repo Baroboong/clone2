@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster+Two:ital@1&family=Patua+One&family=Playball&family=Playfair+Display&family=Poppins:wght@300&display=swap');
+
+:root {
+    --bgcolor: linear-gradient(0deg, rgba(238, 215, 63, 1) 0%, rgb(85, 169, 112) 100%);
+    --light-black: #2e2c2caf;
+    --Playfair-font: 'Playfair Display', serif;
+    --Poppins-font: 'Poppins', sans-serif;
+    --Acme-font: 'Acme', sans-serif;
+    --Lobster-font: 'Lobster Two', cursive;
+    --Patua-font: 'Patua One', cursive;
+    --Playball-font: 'Playball', cursive;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background: var(--bgcolor);
+}
+
+.navbar-brand {
+    padding-left: 80px;
+    color: white;
+    transition: .4s ease-in-out;
+}
+
+.navbar-nav .nav-item:last-child {
+    padding-right: 80px;
+}
+
+.navbar-nav .nav-item {
+    padding: 16px;
+}
+
+.navbar-nav .nav-item a {
+    color: white;
+    font-size: 20px;
+}
+
+header .navbar-toggler-icon {
+    color: white;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+.dropdown-menu {
+    background: rgba(0, 0, 0, 0);
+}
+
+.dropdown-item:hover {
+    background-color: lightseagreen;
+}
+
+header .book-item-1 h4 {
+    font-family: var(--Patua-font);
+}
+
+header .row .col-md-7 {
+    color: white;
+    padding-top: 40px;
+}
+
+header .book-item-1 h1 {
+    font-family: var(--Patua-font);
+    padding: 20px;
+    font-size: 32px;
+}
+
+header .book-item-1 p {
+    font-family: var(--Playfair-font);
+    font-size: 20px;
+}
+
+header .header_img img {
+    width: 100%;
+}
+
+header .blockquote p {
+    font-family: var(--Playfair-font);
+    font-size: 22px;
+}
+
+header .blockquote footer {
+    font-family: var(--Playball-font);
+    font-size: 22px;
+}
+
+.section1 {
+    margin: 96px 0;
+}
+
+.section1 .img-profile img {
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.content-profile-item {
+    background-color: rgba(223, 230, 233, 0.7);
+    padding: 32px 56px;
+    border-radius: 10px;
+}
+
+.section1 .content-profile h1 {
+    font-family: var(--Playfair-font);
+    font-size: 40px;
+}
+
+.section1 .content-profile p {
+    text-align: justify;
+    font-family: var(--Patua-font);
+    font-size: 18px;
+}
+
+.section2 .cover {
+    background-image: url(./img/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+    width: 100%;
+}
+
+.section2 .cover .content {
+    padding-top: min(18vh, 40%);
+    color: white;
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.section2 .cover .content h1 {
+    font-size: max(5vh, 24px);
+    font-family: var(--Acme-font);
+}
+
+.section2 .cover .content p {
+    font-size: 32px;
+    font-family: var(--Acme-font);
+    color: whitesmoke;
+}
+
+.section2 .numbers .rect {
+    box-shadow: 0px 0px 30px 5px rgba(225, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 1rem;
+    width: 272px;
+    height: 100%;
+    padding-top: 5vh;
+    z-index: 1;
+    background: whitesmoke;
+}
+
+.section2 .numbers {
+    margin-top: -5rem;
+}
+
+.section2 .numbers .rect h1 {
+    color: #ff6347;
+    font-size: 64px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.section2 .numbers .rect p {
+    font-family: var(--Patua-font);
+}
+
+.section2 .purchase>h1 {
+    padding-top: 162px;
+    font-size: 56px;
+    font-family: var(--Lobster-font);
+    font-weight: 500;
+}
+
+.section2 .purchase>p {
+    font-family: var(--Patua-font);
+    font-size: 24px;
+    padding-bottom: 16px;
+}
+
+.section2 .card-body {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(224, 102, 102, 1) 100%);
+    padding: 20px;
+    flex: 1 1 auto;
+    min-height: 1px;
+}
+
+.section2 .card {
+    border: none;
+    width: 24rem;
+    margin: 2vw;
+}
+
+.section2 .card-body h5 {
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 11px;
+}
+
+.section2 .card-body .card-text {
+    font-size: 20px;
+}
+
+.section2 .card-body h1 {
+    font-size: 40px;
+}
+
+.section3 {
+    background: linear-gradient(0deg, rgba(255, 255, 0, 0.548) 0%, rgba(0, 128, 0, 0.562) 100%);
+    min-height: 70vh;
+}
+
+.section3 h1 {
+    margin: 56px;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    color: #f5f5f5;
+    font-weight: 700;
+    font-size: 54px;
+}
+
+.section3 .header p {
+    font-size: 22px;
+    color: #f5f5f5;
+    padding: 0 64px;
+    margin-bottom: 48px;
+}
+
+.section3 .btn-item a {
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+.section4 p {
+    font-size: 22px;
+}
+
+.section4 {
+    margin: 0;
+    margin-top: 108px;
+    min-height: 80vh;
+}
+
+.section4 h1 {
+    font-family: var(--Poppins-font);
+    font-size: 54px;
+    margin: 3vw;
+}
+
+.section4 img {
+    height: 200px;
+}
+
+.section4 .card-body h4 {
+    font-size: 24px;
+    margin-bottom: 0.75rem;
+}
+
+.section4 .card-body p {
+    font-size: 16px;
+    margin-bottom: 0.7rem;
+}
+
+.section4 .shadow-lg {
+    border-radius: 10px;
+}
+
+footer {
+    /* background-color: #343a40; */
+}
+
+footer h2 {
+    color: #f8f9fa;
+}
+
+footer p {
+    color: #6c757d;
+}
+
+footer .col-sm-12 {
+    padding: 48px;
+}
